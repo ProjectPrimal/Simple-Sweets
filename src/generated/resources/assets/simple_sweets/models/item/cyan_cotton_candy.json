@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "simple_sweets:item/cyan_cotton_candy"
+  }
+}
