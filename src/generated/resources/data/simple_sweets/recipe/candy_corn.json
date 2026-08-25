@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    "W": {
+      "item": "minecraft:sugar"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "W",
+    "O",
+    "Y"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simple_sweets:candy_corn"
+  }
+}

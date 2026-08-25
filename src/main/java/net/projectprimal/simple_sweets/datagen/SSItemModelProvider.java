@@ -29,5 +29,7 @@ public class SSItemModelProvider extends ItemModelProvider {
         handheldItem(SSItems.GREEN_COTTON_CANDY.get());
         handheldItem(SSItems.RED_COTTON_CANDY.get());
         handheldItem(SSItems.BLACK_COTTON_CANDY.get());
+
+        basicItem(SSItems.CANDY_CORN.get());
     }
 }

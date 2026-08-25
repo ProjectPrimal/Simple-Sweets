@@ -117,5 +117,15 @@ public class SSRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .requires(Items.STICK)
                 .unlockedBy("has_sugar", has(Items.SUGAR))
                 .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SSItems.CANDY_CORN.get())
+                .pattern("W")
+                .pattern("O")
+                .pattern("Y")
+                .define('W', Items.SUGAR)
+                .define('O', Items.ORANGE_DYE)
+                .define('Y', Items.YELLOW_DYE)
+                .unlockedBy("has_sugar", has(Items.SUGAR))
+                .save(recipeOutput);
     }
 }
