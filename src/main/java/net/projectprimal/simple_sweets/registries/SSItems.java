@@ -29,6 +29,8 @@ public class SSItems {
 
     public static final DeferredItem<Item> CANDY_CORN = ITEMS.register("candy_corn", () -> new Item(new Item.Properties().food(SSFoodProperties.HASTE_TREAT).stacksTo(16)));
 
+    public static final DeferredItem<Item> SUGAR_COOKIE = ITEMS.register("sugar_cookie", () -> new Item(new Item.Properties().food(SSFoodProperties.SPEED_TREAT).stacksTo(16)));
+
     public static void register(IEventBus eventBus) {ITEMS.register(eventBus);
     }
 }

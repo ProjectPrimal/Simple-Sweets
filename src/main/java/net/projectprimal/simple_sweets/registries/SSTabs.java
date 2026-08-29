@@ -34,6 +34,10 @@ public class SSTabs {
                 output.accept(SSItems.PURPLE_COTTON_CANDY);
                 output.accept(SSItems.MAGENTA_COTTON_CANDY);
                 output.accept(SSItems.PINK_COTTON_CANDY);
+
+                output.accept(SSItems.CANDY_CORN);
+
+                output.accept(SSItems.SUGAR_COOKIE);
             })
             .build());
 

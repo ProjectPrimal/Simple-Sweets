@@ -11,4 +11,7 @@ public class SSFoodProperties {
 
     public static final FoodProperties HASTE_TREAT = new FoodProperties.Builder().nutrition(1).saturationModifier(.25f).alwaysEdible()
             .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 200), 1).build();
+
+    public static final FoodProperties SPEED_TREAT = new FoodProperties.Builder().nutrition(1).saturationModifier(.25f).alwaysEdible()
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200), 1).build();
 }
