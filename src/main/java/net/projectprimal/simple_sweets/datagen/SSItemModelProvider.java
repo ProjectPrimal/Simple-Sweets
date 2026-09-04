@@ -31,5 +31,7 @@ public class SSItemModelProvider extends ItemModelProvider {
         handheldItem(SSItems.BLACK_COTTON_CANDY.get());
 
         basicItem(SSItems.CANDY_CORN.get());
+
+        basicItem(SSItems.SUGAR_COOKIE.get());
     }
 }

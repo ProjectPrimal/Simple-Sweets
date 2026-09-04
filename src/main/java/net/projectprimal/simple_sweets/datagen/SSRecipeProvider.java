@@ -127,5 +127,12 @@ public class SSRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .define('Y', Items.YELLOW_DYE)
                 .unlockedBy("has_sugar", has(Items.SUGAR))
                 .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SSItems.SUGAR_COOKIE.get())
+                .pattern("WSW")
+                .define('W', Items.WHEAT)
+                .define('S', Items.SUGAR)
+                .unlockedBy("has_sugar", has(Items.SUGAR))
+                .save(recipeOutput);
     }
 }
